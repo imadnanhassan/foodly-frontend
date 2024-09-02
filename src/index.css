@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: Outfit;
 }
 body {
   min-height: 100vh;
@@ -10,4 +13,8 @@ body {
 a {
   text-decoration: none;
   color: inherit; /* Make links appear as normal text */
+}
+.app {
+  width: 85%;
+  margin: auto;
 }
